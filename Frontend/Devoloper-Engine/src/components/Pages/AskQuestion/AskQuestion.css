@@ -1,0 +1,53 @@
+
+.ask-ques-container {
+  margin: auto;
+  max-width: 1000px;
+
+
+}
+.ask-ques-container h1 {
+margin-top: 80px;
+ background-color: aqua;
+ padding: 5px;
+ display: table;
+ border-radius: 7px;
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+
+.ask-ques-container form .ask-form-container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px rgb(0 0 0/ 5%), -3px -3px 10px rgb(0 0 0/ 5%);
+}
+.ask-form-container label h4 {
+  margin-bottom: 0%;
+}
+.ask-form-container label h3 {
+  margin: 0%;
+  font-size: 16px;
+  padding: 3px 0px; 
+}
+.ask-form-container label input,
+.ask-form-container label textarea {
+  padding: 10px;
+  border: solid 1 px black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: calc(100% - 20px);
+  resize: vertical;
+}
+
+.review-btn {
+  margin: 50px 0px;
+  padding: 10px;
+  background-color: blueviolet;
+  border: solid 1px blue;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.review-btn:hover {
+  background-color: azure;
+}
